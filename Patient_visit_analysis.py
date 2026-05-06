@@ -7,15 +7,11 @@ df = pd.read_csv("patient_visits_dataset.csv", sep=";")
 #view first 10 raws
 print(df.head(10))
 
-#seperete 1 column into 2 columns
-df[["visit_date", "visit_time"]] = df["visit_datetime"].str.split(" ", expand=True) #seperate column into 2
-print(df)
-
 #view column labels
 print(df.columns)
 
 #Prepare your data first
-df["visit_datetime"] = pd.to_datetime(df["visit_date"] + " " + df["visit_time"])
+df["visit_datetime"] = pd.to_datetime(df["visit_datetime"])
 
 #extract useful time features
 df["hour"] = df["visit_datetime"].dt.hour
@@ -118,4 +114,5 @@ def generate_summary(df, top_diagnosis, top_departments):
     print(f"Total Patients: {len(df)}")
     print(f"Most Common Diagnosis: {top_diagnosis.idxmax()}")
     print(f"Most Busy Department: {top_departments.idxmax()}")
-    print(f"Peak Hour: {df['hour'].value_counts().idxmax()}")
+    print(f"Peak Hour: {df['hour'].value_counts().idxmax()} {":00"}")
+generate_summary(df, top_diagnosis, top_departments)
