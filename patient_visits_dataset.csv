@@ -1,0 +1,1001 @@
+patient_id;age;gender;visit_datetime;diagnosis;department
+1;43;Male;2026/03/13 10:19;Flu;General
+2;32;Male;2026/05/04 00:25;Flu;General
+3;46;Female;2026/04/13 20:52;Chest Pain;Emergency
+4;62;Female;2026/04/23 09:42;Flu;General
+5;30;Male;2026/04/28 08:08;Malaria;Infectious Disease
+6;30;Female;2026/03/29 04:48;Headache;Neurology
+7;63;Male;2026/04/15 16:23;Flu;General
+8;48;Female;2026/03/26 18:58;Hypertension;Cardiology
+9;26;Female;2026/04/13 22:40;Diabetes;Endocrinology
+10;44;Female;2026/04/13 12:10;Infection;General
+11;26;Female;2026/04/20 18:10;Headache;Neurology
+12;26;Female;2026/03/18 13:44;Asthma;Pulmonology
+13;39;Male;2026/03/06 07:43;Chest Pain;Emergency
+14;0;Female;2026/03/24 11:07;Infection;General
+15;3;Male;2026/03/13 20:44;Malaria;Infectious Disease
+16;24;Female;2026/03/17 15:32;Malaria;Infectious Disease
+17;16;Female;2026/04/19 06:27;Asthma;Pulmonology
+18;40;Female;2026/05/02 04:07;Infection;General
+19;18;Male;2026/03/30 13:22;Headache;Neurology
+20;9;Female;2026/04/04 12:46;Asthma;Pulmonology
+21;61;Female;2026/03/28 16:46;Flu;General
+22;30;Female;2026/03/25 17:17;Malaria;Infectious Disease
+23;36;Male;2026/03/07 03:29;Diabetes;Endocrinology
+24;9;Male;2026/04/07 03:17;Flu;General
+25;25;Male;2026/04/11 18:46;Flu;General
+26;36;Male;2026/04/02 07:19;Asthma;Pulmonology
+27;14;Female;2026/04/23 00:11;Headache;Neurology
+28;41;Male;2026/05/02 18:14;Hypertension;Cardiology
+29;24;Female;2026/04/15 06:01;Headache;Neurology
+30;29;Male;2026/04/03 08:09;Headache;Neurology
+31;24;Male;2026/03/07 18:10;Hypertension;Cardiology
+32;68;Female;2026/03/18 09:13;Infection;General
+33;34;Female;2026/03/23 18:53;Back Pain;Orthopedics
+34;15;Female;2026/03/14 06:27;Back Pain;Orthopedics
+35;49;Female;2026/03/08 19:05;Asthma;Pulmonology
+36;13;Female;2026/04/01 20:01;Headache;Neurology
+37;38;Male;2026/04/03 05:02;Flu;General
+38;0;Female;2026/03/21 07:01;Diabetes;Endocrinology
+39;11;Female;2026/03/22 08:11;Flu;General
+40;38;Female;2026/04/09 10:00;Chest Pain;Emergency
+41;48;Male;2026/04/29 12:14;Flu;General
+42;38;Female;2026/03/31 04:20;Hypertension;Cardiology
+43;32;Male;2026/04/23 22:23;Allergy;Immunology
+44;29;Male;2026/05/01 05:27;Chest Pain;Emergency
+45;8;Male;2026/03/26 21:42;Infection;General
+46;22;Male;2026/03/23 03:34;Flu;General
+47;26;Female;2026/04/19 22:08;Flu;General
+48;54;Female;2026/04/27 05:57;Malaria;Infectious Disease
+49;41;Female;2026/04/04 11:33;Flu;General
+50;3;Male;2026/04/06 02:02;Flu;General
+51;40;Male;2026/04/02 11:14;Headache;Neurology
+52;28;Male;2026/04/15 22:39;Chest Pain;Emergency
+53;22;Female;2026/03/16 15:31;Diabetes;Endocrinology
+54;46;Male;2026/05/02 21:35;Infection;General
+55;53;Female;2026/05/04 00:23;Infection;General
+56;51;Female;2026/04/13 01:55;Hypertension;Cardiology
+57;19;Male;2026/04/02 04:06;Infection;General
+58;29;Female;2026/03/09 04:55;Hypertension;Cardiology
+59;40;Female;2026/03/06 00:46;Flu;General
+60;52;Female;2026/03/25 18:28;Infection;General
+61;26;Female;2026/03/15 17:27;Flu;General
+62;31;Male;2026/04/09 10:46;Chest Pain;Emergency
+63;15;Male;2026/04/05 10:48;Hypertension;Cardiology
+64;13;Female;2026/04/23 05:04;Asthma;Pulmonology
+65;49;Female;2026/03/13 01:47;Malaria;Infectious Disease
+66;59;Male;2026/04/26 23:11;Flu;General
+67;33;Female;2026/04/12 00:30;Flu;General
+68;53;Female;2026/03/09 16:44;Asthma;Pulmonology
+69;41;Female;2026/04/24 04:29;Back Pain;Orthopedics
+70;23;Male;2026/04/30 23:58;Back Pain;Orthopedics
+71;41;Female;2026/03/08 10:44;Headache;Neurology
+72;62;Female;2026/03/09 13:53;Back Pain;Orthopedics
+73;34;Male;2026/04/17 09:50;Infection;General
+74;63;Male;2026/04/24 05:58;Infection;General
+75;0;Female;2026/03/20 20:29;Headache;Neurology
+76;49;Male;2026/04/16 04:57;Asthma;Pulmonology
+77;36;Female;2026/04/11 09:59;Back Pain;Orthopedics
+78;29;Female;2026/04/11 02:22;Malaria;Infectious Disease
+79;36;Male;2026/03/11 03:17;Back Pain;Orthopedics
+80;0;Female;2026/05/04 08:48;Asthma;Pulmonology
+81;31;Male;2026/04/03 12:58;Hypertension;Cardiology
+82;41;Female;2026/04/21 19:16;Flu;General
+83;61;Male;2026/04/19 15:21;Diabetes;Endocrinology
+84;25;Female;2026/03/09 04:36;Headache;Neurology
+85;20;Male;2026/04/15 16:12;Back Pain;Orthopedics
+86;25;Male;2026/04/08 12:21;Flu;General
+87;51;Female;2026/04/27 22:50;Back Pain;Orthopedics
+88;40;Male;2026/03/08 09:33;Allergy;Immunology
+89;25;Female;2026/04/06 12:50;Hypertension;Cardiology
+90;44;Male;2026/05/02 16:20;Allergy;Immunology
+91;36;Female;2026/04/20 11:20;Chest Pain;Emergency
+92;52;Male;2026/04/18 10:38;Infection;General
+93;22;Female;2026/03/09 18:00;Back Pain;Orthopedics
+94;29;Male;2026/04/02 23:34;Chest Pain;Emergency
+95;27;Male;2026/03/18 14:33;Asthma;Pulmonology
+96;8;Male;2026/03/16 03:50;Diabetes;Endocrinology
+97;40;Male;2026/03/22 02:59;Back Pain;Orthopedics
+98;39;Female;2026/03/23 07:21;Asthma;Pulmonology
+99;35;Male;2026/05/01 23:57;Asthma;Pulmonology
+100;30;Female;2026/03/24 04:38;Hypertension;Cardiology
+101;9;Male;2026/03/26 07:27;Infection;General
+102;27;Male;2026/03/10 16:36;Flu;General
+103;28;Female;2026/04/10 21:18;Chest Pain;Emergency
+104;20;Female;2026/04/01 20:33;Diabetes;Endocrinology
+105;32;Male;2026/03/16 21:44;Flu;General
+106;42;Male;2026/04/21 11:53;Malaria;Infectious Disease
+107;68;Male;2026/03/26 21:10;Flu;General
+108;38;Female;2026/04/13 04:16;Infection;General
+109;39;Female;2026/04/30 19:40;Allergy;Immunology
+110;33;Male;2026/04/20 11:05;Back Pain;Orthopedics
+111;0;Female;2026/03/22 18:18;Flu;General
+112;34;Female;2026/03/31 15:43;Flu;General
+113;36;Female;2026/04/18 19:31;Back Pain;Orthopedics
+114;79;Female;2026/03/11 22:57;Chest Pain;Emergency
+115;31;Male;2026/04/10 05:10;Headache;Neurology
+116;40;Male;2026/04/07 23:22;Headache;Neurology
+117;34;Male;2026/03/20 10:56;Diabetes;Endocrinology
+118;13;Male;2026/04/25 17:16;Allergy;Immunology
+119;55;Female;2026/04/25 20:13;Asthma;Pulmonology
+120;48;Female;2026/04/01 17:27;Diabetes;Endocrinology
+121;49;Male;2026/04/25 14:46;Diabetes;Endocrinology
+122;18;Male;2026/03/09 06:44;Allergy;Immunology
+123;60;Male;2026/04/09 15:08;Flu;General
+124;9;Female;2026/03/13 19:44;Diabetes;Endocrinology
+125;45;Male;2026/03/22 16:48;Headache;Neurology
+126;74;Female;2026/04/07 07:18;Flu;General
+127;17;Male;2026/04/12 02:58;Flu;General
+128;24;Male;2026/03/10 12:46;Back Pain;Orthopedics
+129;36;Female;2026/04/20 22:15;Allergy;Immunology
+130;25;Female;2026/04/24 21:28;Back Pain;Orthopedics
+131;7;Male;2026/03/27 10:02;Allergy;Immunology
+132;36;Female;2026/04/28 09:41;Headache;Neurology
+133;15;Female;2026/03/26 15:11;Back Pain;Orthopedics
+134;43;Female;2026/03/07 08:23;Malaria;Infectious Disease
+135;18;Male;2026/04/09 23:29;Infection;General
+136;62;Female;2026/05/01 14:34;Chest Pain;Emergency
+137;20;Female;2026/03/24 17:07;Hypertension;Cardiology
+138;29;Female;2026/03/31 16:39;Malaria;Infectious Disease
+139;49;Male;2026/03/12 06:02;Headache;Neurology
+140;12;Male;2026/03/06 03:24;Flu;General
+141;39;Male;2026/04/11 00:14;Flu;General
+142;58;Female;2026/04/11 12:39;Back Pain;Orthopedics
+143;6;Male;2026/03/13 04:59;Chest Pain;Emergency
+144;38;Female;2026/03/14 00:35;Malaria;Infectious Disease
+145;39;Female;2026/04/09 01:39;Flu;General
+146;49;Male;2026/03/28 08:33;Flu;General
+147;12;Female;2026/04/20 13:03;Allergy;Immunology
+148;11;Male;2026/04/04 05:10;Headache;Neurology
+149;44;Female;2026/04/09 07:02;Diabetes;Endocrinology
+150;40;Male;2026/03/19 12:44;Headache;Neurology
+151;39;Female;2026/04/06 01:44;Diabetes;Endocrinology
+152;41;Female;2026/03/24 05:15;Headache;Neurology
+153;22;Female;2026/03/07 07:16;Allergy;Immunology
+154;39;Female;2026/04/29 01:41;Asthma;Pulmonology
+155;40;Female;2026/05/04 15:37;Infection;General
+156;22;Female;2026/05/04 01:01;Diabetes;Endocrinology
+157;68;Female;2026/03/31 12:55;Infection;General
+158;43;Female;2026/04/21 01:38;Infection;General
+159;13;Male;2026/03/08 07:22;Flu;General
+160;46;Female;2026/03/19 23:54;Asthma;Pulmonology
+161;17;Female;2026/04/01 21:28;Hypertension;Cardiology
+162;49;Female;2026/04/13 20:38;Back Pain;Orthopedics
+163;55;Male;2026/03/06 16:40;Malaria;Infectious Disease
+164;20;Female;2026/04/04 20:12;Chest Pain;Emergency
+165;52;Male;2026/03/26 18:52;Flu;General
+166;42;Female;2026/03/24 21:30;Back Pain;Orthopedics
+167;49;Male;2026/03/22 22:22;Infection;General
+168;69;Female;2026/04/06 09:09;Infection;General
+169;30;Female;2026/04/10 07:53;Diabetes;Endocrinology
+170;21;Male;2026/04/26 19:31;Headache;Neurology
+171;18;Female;2026/04/24 13:49;Back Pain;Orthopedics
+172;20;Male;2026/04/02 13:51;Hypertension;Cardiology
+173;33;Female;2026/04/27 23:14;Hypertension;Cardiology
+174;41;Female;2026/03/27 03:12;Headache;Neurology
+175;39;Female;2026/05/03 22:07;Headache;Neurology
+176;49;Female;2026/03/23 11:54;Diabetes;Endocrinology
+177;35;Female;2026/04/05 13:33;Diabetes;Endocrinology
+178;61;Male;2026/03/23 23:33;Diabetes;Endocrinology
+179;30;Male;2026/03/16 08:11;Back Pain;Orthopedics
+180;83;Female;2026/04/23 14:56;Infection;General
+181;46;Female;2026/04/05 16:57;Back Pain;Orthopedics
+182;19;Female;2026/04/03 17:31;Chest Pain;Emergency
+183;15;Female;2026/03/27 05:16;Headache;Neurology
+184;43;Male;2026/03/28 23:49;Flu;General
+185;30;Female;2026/03/13 08:05;Flu;General
+186;47;Male;2026/03/10 11:56;Diabetes;Endocrinology
+187;43;Female;2026/04/03 10:56;Chest Pain;Emergency
+188;33;Male;2026/03/06 10:18;Headache;Neurology
+189;19;Male;2026/03/14 01:43;Diabetes;Endocrinology
+190;7;Male;2026/03/09 03:17;Malaria;Infectious Disease
+191;26;Male;2026/03/20 18:12;Asthma;Pulmonology
+192;50;Female;2026/03/24 16:05;Infection;General
+193;38;Male;2026/04/22 23:11;Hypertension;Cardiology
+194;12;Male;2026/04/25 04:16;Chest Pain;Emergency
+195;38;Male;2026/05/02 22:25;Headache;Neurology
+196;41;Male;2026/04/03 00:59;Flu;General
+197;19;Male;2026/04/01 23:54;Allergy;Immunology
+198;37;Male;2026/03/15 14:22;Flu;General
+199;36;Female;2026/03/26 20:42;Allergy;Immunology
+200;14;Female;2026/03/18 04:32;Chest Pain;Emergency
+201;41;Female;2026/03/29 11:10;Infection;General
+202;45;Male;2026/03/22 03:46;Back Pain;Orthopedics
+203;54;Male;2026/03/30 08:20;Diabetes;Endocrinology
+204;53;Female;2026/03/25 18:18;Chest Pain;Emergency
+205;10;Female;2026/03/17 04:41;Headache;Neurology
+206;18;Male;2026/03/22 04:53;Infection;General
+207;44;Male;2026/04/22 06:27;Chest Pain;Emergency
+208;44;Male;2026/04/15 02:46;Chest Pain;Emergency
+209;44;Male;2026/04/22 17:13;Back Pain;Orthopedics
+210;90;Male;2026/04/09 11:40;Diabetes;Endocrinology
+211;45;Female;2026/05/04 06:40;Chest Pain;Emergency
+212;55;Female;2026/03/18 17:36;Asthma;Pulmonology
+213;52;Female;2026/03/18 03:30;Chest Pain;Emergency
+214;46;Female;2026/03/07 15:08;Infection;General
+215;29;Female;2026/03/14 05:10;Diabetes;Endocrinology
+216;48;Female;2026/04/28 23:21;Malaria;Infectious Disease
+217;21;Female;2026/04/07 03:44;Headache;Neurology
+218;30;Male;2026/03/28 12:44;Back Pain;Orthopedics
+219;26;Male;2026/04/08 08:23;Diabetes;Endocrinology
+220;36;Male;2026/03/13 06:35;Asthma;Pulmonology
+221;76;Female;2026/03/23 02:27;Diabetes;Endocrinology
+222;1;Female;2026/03/11 11:43;Back Pain;Orthopedics
+223;47;Male;2026/03/26 07:53;Headache;Neurology
+224;5;Female;2026/04/28 00:35;Flu;General
+225;26;Male;2026/03/26 10:34;Hypertension;Cardiology
+226;54;Female;2026/03/18 16:53;Flu;General
+227;36;Male;2026/04/28 09:52;Headache;Neurology
+228;15;Male;2026/04/18 14:52;Flu;General
+229;22;Female;2026/03/15 13:12;Flu;General
+230;47;Male;2026/04/11 05:23;Chest Pain;Emergency
+231;21;Male;2026/03/07 21:16;Allergy;Immunology
+232;38;Male;2026/04/10 13:09;Headache;Neurology
+233;35;Female;2026/04/09 02:46;Chest Pain;Emergency
+234;23;Female;2026/04/12 16:11;Flu;General
+235;73;Male;2026/04/28 19:23;Asthma;Pulmonology
+236;46;Female;2026/04/03 10:24;Asthma;Pulmonology
+237;0;Female;2026/04/10 05:00;Headache;Neurology
+238;38;Male;2026/03/25 22:27;Malaria;Infectious Disease
+239;23;Male;2026/03/21 14:16;Headache;Neurology
+240;50;Male;2026/04/14 11:26;Malaria;Infectious Disease
+241;20;Male;2026/04/28 20:41;Infection;General
+242;32;Female;2026/05/03 14:29;Flu;General
+243;44;Male;2026/04/15 01:36;Hypertension;Cardiology
+244;50;Female;2026/03/11 06:31;Hypertension;Cardiology
+245;13;Female;2026/04/06 20:24;Hypertension;Cardiology
+246;28;Male;2026/04/07 22:57;Headache;Neurology
+247;26;Female;2026/03/12 19:56;Flu;General
+248;23;Male;2026/03/17 15:15;Allergy;Immunology
+249;66;Female;2026/04/17 20:35;Diabetes;Endocrinology
+250;42;Female;2026/03/18 06:35;Hypertension;Cardiology
+251;12;Female;2026/04/21 18:08;Infection;General
+252;51;Female;2026/04/06 10:07;Flu;General
+253;73;Male;2026/04/07 22:24;Asthma;Pulmonology
+254;53;Female;2026/04/30 07:44;Infection;General
+255;7;Female;2026/03/27 03:39;Hypertension;Cardiology
+256;26;Female;2026/03/08 08:28;Flu;General
+257;57;Female;2026/04/08 01:27;Diabetes;Endocrinology
+258;22;Female;2026/03/18 14:59;Flu;General
+259;42;Male;2026/03/28 11:25;Flu;General
+260;48;Male;2026/03/09 07:08;Hypertension;Cardiology
+261;18;Female;2026/04/29 04:55;Diabetes;Endocrinology
+262;33;Male;2026/04/06 19:49;Headache;Neurology
+263;0;Female;2026/03/16 14:31;Infection;General
+264;16;Female;2026/04/02 21:40;Asthma;Pulmonology
+265;30;Male;2026/03/22 11:06;Flu;General
+266;12;Male;2026/04/16 09:58;Hypertension;Cardiology
+267;64;Female;2026/04/19 18:10;Allergy;Immunology
+268;9;Male;2026/03/18 20:07;Headache;Neurology
+269;27;Female;2026/04/14 03:46;Allergy;Immunology
+270;37;Male;2026/04/05 10:42;Malaria;Infectious Disease
+271;60;Female;2026/03/06 16:46;Asthma;Pulmonology
+272;9;Male;2026/04/26 05:23;Headache;Neurology
+273;55;Female;2026/04/28 14:30;Diabetes;Endocrinology
+274;35;Male;2026/04/15 13:49;Headache;Neurology
+275;17;Female;2026/03/31 16:49;Headache;Neurology
+276;43;Male;2026/03/10 19:51;Hypertension;Cardiology
+277;38;Female;2026/04/15 10:55;Diabetes;Endocrinology
+278;24;Female;2026/04/28 00:49;Back Pain;Orthopedics
+279;36;Male;2026/04/12 01:14;Allergy;Immunology
+280;28;Male;2026/04/06 20:45;Diabetes;Endocrinology
+281;37;Male;2026/03/10 05:37;Diabetes;Endocrinology
+282;46;Female;2026/03/27 17:13;Hypertension;Cardiology
+283;63;Female;2026/03/15 13:12;Infection;General
+284;12;Female;2026/04/05 02:29;Diabetes;Endocrinology
+285;73;Male;2026/03/11 07:43;Chest Pain;Emergency
+286;0;Male;2026/04/19 10:43;Diabetes;Endocrinology
+287;32;Female;2026/04/07 16:47;Malaria;Infectious Disease
+288;45;Female;2026/03/16 12:49;Asthma;Pulmonology
+289;40;Female;2026/03/16 11:05;Back Pain;Orthopedics
+290;23;Male;2026/04/15 15:03;Headache;Neurology
+291;31;Female;2026/04/09 15:55;Malaria;Infectious Disease
+292;26;Male;2026/05/03 11:10;Chest Pain;Emergency
+293;24;Male;2026/04/11 17:18;Flu;General
+294;50;Female;2026/03/28 22:37;Allergy;Immunology
+295;41;Female;2026/04/28 17:25;Flu;General
+296;22;Female;2026/03/11 03:43;Back Pain;Orthopedics
+297;51;Male;2026/04/25 01:16;Asthma;Pulmonology
+298;40;Male;2026/04/17 10:52;Diabetes;Endocrinology
+299;49;Female;2026/03/21 01:33;Allergy;Immunology
+300;46;Female;2026/04/29 07:12;Flu;General
+301;20;Male;2026/04/16 07:29;Hypertension;Cardiology
+302;24;Male;2026/04/06 03:46;Headache;Neurology
+303;48;Male;2026/04/04 00:42;Diabetes;Endocrinology
+304;45;Female;2026/04/13 16:58;Asthma;Pulmonology
+305;34;Male;2026/03/25 23:49;Flu;General
+306;37;Male;2026/03/27 21:43;Flu;General
+307;57;Male;2026/03/14 04:09;Flu;General
+308;24;Male;2026/04/10 04:27;Hypertension;Cardiology
+309;44;Male;2026/04/02 09:42;Headache;Neurology
+310;31;Female;2026/03/26 23:41;Infection;General
+311;31;Male;2026/05/04 07:01;Allergy;Immunology
+312;54;Female;2026/04/29 07:47;Back Pain;Orthopedics
+313;49;Male;2026/04/01 21:36;Hypertension;Cardiology
+314;49;Female;2026/04/01 02:43;Malaria;Infectious Disease
+315;58;Female;2026/03/18 12:09;Hypertension;Cardiology
+316;35;Female;2026/04/10 08:53;Hypertension;Cardiology
+317;47;Female;2026/04/30 22:26;Headache;Neurology
+318;29;Male;2026/04/08 18:00;Flu;General
+319;40;Male;2026/04/06 06:48;Hypertension;Cardiology
+320;32;Female;2026/03/08 19:19;Chest Pain;Emergency
+321;36;Female;2026/04/27 02:34;Headache;Neurology
+322;45;Female;2026/04/23 06:26;Malaria;Infectious Disease
+323;20;Female;2026/03/31 13:16;Flu;General
+324;72;Female;2026/03/23 12:51;Hypertension;Cardiology
+325;16;Male;2026/04/03 19:52;Allergy;Immunology
+326;13;Male;2026/04/01 17:03;Hypertension;Cardiology
+327;55;Female;2026/03/06 17:00;Malaria;Infectious Disease
+328;49;Female;2026/05/02 12:19;Flu;General
+329;46;Male;2026/04/26 22:09;Headache;Neurology
+330;46;Female;2026/05/03 10:40;Flu;General
+331;34;Male;2026/04/15 04:57;Back Pain;Orthopedics
+332;18;Female;2026/03/06 16:21;Back Pain;Orthopedics
+333;36;Male;2026/04/08 23:44;Back Pain;Orthopedics
+334;22;Male;2026/04/15 03:04;Diabetes;Endocrinology
+335;52;Female;2026/03/16 23:50;Back Pain;Orthopedics
+336;32;Male;2026/03/26 02:11;Headache;Neurology
+337;20;Female;2026/03/31 18:18;Malaria;Infectious Disease
+338;29;Female;2026/04/19 06:46;Asthma;Pulmonology
+339;42;Female;2026/04/29 06:25;Flu;General
+340;24;Male;2026/04/14 04:20;Flu;General
+341;20;Male;2026/03/19 03:22;Infection;General
+342;39;Male;2026/04/16 19:14;Hypertension;Cardiology
+343;39;Female;2026/04/24 19:44;Asthma;Pulmonology
+344;25;Female;2026/04/03 07:40;Malaria;Infectious Disease
+345;26;Female;2026/04/22 18:47;Allergy;Immunology
+346;39;Female;2026/04/13 13:27;Chest Pain;Emergency
+347;8;Female;2026/04/20 03:57;Allergy;Immunology
+348;9;Female;2026/03/20 02:36;Diabetes;Endocrinology
+349;22;Male;2026/03/06 02:46;Hypertension;Cardiology
+350;31;Female;2026/03/29 07:35;Headache;Neurology
+351;40;Male;2026/04/08 23:23;Flu;General
+352;61;Female;2026/04/16 03:02;Flu;General
+353;50;Female;2026/04/08 16:22;Headache;Neurology
+354;32;Female;2026/04/27 23:51;Headache;Neurology
+355;34;Male;2026/03/28 12:04;Chest Pain;Emergency
+356;16;Male;2026/04/05 20:40;Hypertension;Cardiology
+357;34;Male;2026/05/01 21:05;Hypertension;Cardiology
+358;29;Male;2026/04/11 09:39;Flu;General
+359;40;Male;2026/03/12 06:37;Allergy;Immunology
+360;20;Female;2026/03/26 19:02;Back Pain;Orthopedics
+361;44;Female;2026/04/25 21:46;Back Pain;Orthopedics
+362;62;Male;2026/03/09 11:37;Allergy;Immunology
+363;33;Male;2026/04/25 03:46;Headache;Neurology
+364;42;Male;2026/04/15 04:12;Headache;Neurology
+365;47;Female;2026/03/28 17:29;Diabetes;Endocrinology
+366;27;Female;2026/04/11 15:26;Asthma;Pulmonology
+367;39;Female;2026/04/25 13:56;Headache;Neurology
+368;35;Female;2026/04/22 14:53;Headache;Neurology
+369;36;Female;2026/04/10 06:15;Chest Pain;Emergency
+370;21;Female;2026/04/30 21:20;Chest Pain;Emergency
+371;35;Male;2026/04/28 20:07;Back Pain;Orthopedics
+372;43;Female;2026/04/23 15:58;Infection;General
+373;61;Male;2026/04/29 09:09;Infection;General
+374;52;Female;2026/04/06 01:08;Hypertension;Cardiology
+375;73;Male;2026/03/22 10:31;Flu;General
+376;21;Female;2026/03/15 21:56;Infection;General
+377;50;Female;2026/03/22 03:47;Infection;General
+378;38;Female;2026/04/26 14:24;Flu;General
+379;74;Female;2026/05/03 20:36;Chest Pain;Emergency
+380;20;Male;2026/04/12 16:00;Flu;General
+381;19;Male;2026/03/30 18:35;Diabetes;Endocrinology
+382;24;Male;2026/03/22 08:23;Infection;General
+383;0;Male;2026/03/07 07:14;Hypertension;Cardiology
+384;25;Female;2026/04/06 06:58;Flu;General
+385;21;Male;2026/03/11 00:46;Diabetes;Endocrinology
+386;37;Female;2026/03/28 06:56;Infection;General
+387;41;Female;2026/03/22 01:58;Malaria;Infectious Disease
+388;68;Female;2026/04/15 08:12;Infection;General
+389;52;Male;2026/03/11 05:19;Asthma;Pulmonology
+390;24;Female;2026/04/26 20:02;Flu;General
+391;18;Female;2026/03/22 16:11;Chest Pain;Emergency
+392;43;Female;2026/04/22 14:44;Flu;General
+393;11;Female;2026/04/29 00:16;Chest Pain;Emergency
+394;67;Female;2026/03/08 14:35;Headache;Neurology
+395;56;Male;2026/04/06 03:17;Chest Pain;Emergency
+396;26;Female;2026/04/23 18:42;Flu;General
+397;4;Male;2026/04/26 02:39;Headache;Neurology
+398;59;Male;2026/03/19 00:13;Hypertension;Cardiology
+399;32;Male;2026/04/08 22:03;Flu;General
+400;57;Male;2026/03/29 18:05;Asthma;Pulmonology
+401;6;Male;2026/05/01 00:48;Hypertension;Cardiology
+402;24;Male;2026/04/14 18:52;Asthma;Pulmonology
+403;35;Female;2026/03/06 04:26;Flu;General
+404;35;Female;2026/03/21 05:39;Diabetes;Endocrinology
+405;26;Female;2026/03/18 15:34;Back Pain;Orthopedics
+406;46;Male;2026/03/24 11:15;Malaria;Infectious Disease
+407;15;Male;2026/05/03 10:09;Asthma;Pulmonology
+408;32;Female;2026/03/30 19:30;Asthma;Pulmonology
+409;37;Male;2026/03/09 11:22;Back Pain;Orthopedics
+410;44;Male;2026/03/07 23:21;Diabetes;Endocrinology
+411;47;Female;2026/04/25 04:07;Infection;General
+412;14;Male;2026/03/12 13:55;Chest Pain;Emergency
+413;7;Female;2026/04/29 02:49;Infection;General
+414;57;Female;2026/03/21 22:18;Headache;Neurology
+415;40;Male;2026/04/25 17:51;Asthma;Pulmonology
+416;21;Male;2026/03/21 07:59;Infection;General
+417;62;Female;2026/04/07 16:11;Asthma;Pulmonology
+418;37;Male;2026/04/27 10:04;Flu;General
+419;56;Male;2026/04/01 11:16;Hypertension;Cardiology
+420;36;Female;2026/03/11 00:04;Back Pain;Orthopedics
+421;72;Male;2026/05/01 13:04;Diabetes;Endocrinology
+422;66;Female;2026/04/28 23:58;Infection;General
+423;30;Female;2026/04/07 17:47;Malaria;Infectious Disease
+424;52;Male;2026/04/15 18:21;Headache;Neurology
+425;46;Male;2026/03/10 01:29;Flu;General
+426;59;Male;2026/04/21 06:03;Hypertension;Cardiology
+427;17;Male;2026/04/07 12:19;Chest Pain;Emergency
+428;47;Male;2026/04/28 06:14;Allergy;Immunology
+429;54;Female;2026/03/28 13:22;Infection;General
+430;3;Male;2026/03/24 21:28;Headache;Neurology
+431;13;Female;2026/04/30 19:28;Infection;General
+432;0;Female;2026/03/29 17:09;Asthma;Pulmonology
+433;30;Female;2026/04/15 07:25;Headache;Neurology
+434;47;Female;2026/04/03 09:16;Flu;General
+435;62;Male;2026/03/07 05:57;Asthma;Pulmonology
+436;36;Female;2026/03/10 08:04;Infection;General
+437;64;Female;2026/03/23 19:40;Chest Pain;Emergency
+438;10;Male;2026/04/23 16:11;Flu;General
+439;4;Male;2026/03/12 02:09;Infection;General
+440;34;Female;2026/04/08 02:15;Asthma;Pulmonology
+441;41;Male;2026/03/07 23:09;Malaria;Infectious Disease
+442;34;Male;2026/04/12 21:25;Flu;General
+443;0;Male;2026/04/17 22:38;Malaria;Infectious Disease
+444;33;Male;2026/04/01 14:37;Diabetes;Endocrinology
+445;11;Female;2026/03/25 08:53;Diabetes;Endocrinology
+446;47;Female;2026/03/25 11:18;Infection;General
+447;41;Female;2026/03/25 02:46;Infection;General
+448;18;Male;2026/03/07 20:33;Asthma;Pulmonology
+449;25;Male;2026/03/27 02:05;Chest Pain;Emergency
+450;15;Female;2026/03/20 09:08;Diabetes;Endocrinology
+451;33;Male;2026/04/07 15:05;Hypertension;Cardiology
+452;52;Male;2026/04/15 03:58;Infection;General
+453;17;Female;2026/05/04 01:28;Hypertension;Cardiology
+454;44;Male;2026/03/09 00:18;Diabetes;Endocrinology
+455;25;Female;2026/03/31 09:52;Hypertension;Cardiology
+456;20;Male;2026/03/20 21:50;Flu;General
+457;33;Male;2026/04/22 20:58;Back Pain;Orthopedics
+458;16;Male;2026/04/30 21:35;Hypertension;Cardiology
+459;25;Female;2026/04/08 12:27;Headache;Neurology
+460;13;Female;2026/03/06 16:44;Flu;General
+461;70;Female;2026/03/09 06:48;Infection;General
+462;35;Female;2026/03/14 03:18;Diabetes;Endocrinology
+463;22;Male;2026/03/06 09:35;Infection;General
+464;38;Female;2026/03/14 12:45;Malaria;Infectious Disease
+465;32;Male;2026/04/16 05:47;Hypertension;Cardiology
+466;31;Female;2026/04/12 16:09;Headache;Neurology
+467;46;Male;2026/04/24 21:49;Flu;General
+468;48;Female;2026/04/09 19:58;Malaria;Infectious Disease
+469;25;Male;2026/03/26 14:14;Diabetes;Endocrinology
+470;24;Male;2026/03/09 08:26;Allergy;Immunology
+471;30;Female;2026/03/31 18:55;Flu;General
+472;0;Male;2026/04/02 16:42;Infection;General
+473;7;Male;2026/05/01 08:41;Hypertension;Cardiology
+474;59;Male;2026/04/24 19:44;Diabetes;Endocrinology
+475;64;Male;2026/04/14 06:48;Malaria;Infectious Disease
+476;30;Female;2026/04/27 22:46;Allergy;Immunology
+477;45;Female;2026/04/06 19:46;Hypertension;Cardiology
+478;40;Female;2026/04/07 13:04;Flu;General
+479;90;Female;2026/04/17 15:33;Diabetes;Endocrinology
+480;55;Male;2026/04/14 10:49;Flu;General
+481;32;Female;2026/03/08 00:10;Flu;General
+482;17;Male;2026/03/21 17:29;Asthma;Pulmonology
+483;6;Male;2026/04/22 22:09;Flu;General
+484;38;Female;2026/03/23 05:18;Flu;General
+485;21;Male;2026/04/10 12:55;Infection;General
+486;9;Female;2026/04/20 02:09;Diabetes;Endocrinology
+487;23;Male;2026/04/12 00:54;Flu;General
+488;15;Female;2026/04/30 13:07;Hypertension;Cardiology
+489;65;Female;2026/04/25 13:41;Asthma;Pulmonology
+490;50;Female;2026/03/22 08:05;Diabetes;Endocrinology
+491;34;Female;2026/04/17 06:48;Headache;Neurology
+492;61;Female;2026/05/04 00:53;Flu;General
+493;36;Male;2026/04/11 08:17;Asthma;Pulmonology
+494;19;Female;2026/04/30 20:01;Diabetes;Endocrinology
+495;62;Male;2026/05/02 10:58;Asthma;Pulmonology
+496;44;Female;2026/05/04 05:57;Back Pain;Orthopedics
+497;16;Female;2026/04/14 03:49;Asthma;Pulmonology
+498;31;Female;2026/05/04 10:36;Diabetes;Endocrinology
+499;19;Male;2026/03/20 17:33;Hypertension;Cardiology
+500;10;Male;2026/03/27 10:57;Diabetes;Endocrinology
+501;51;Female;2026/05/01 12:03;Hypertension;Cardiology
+502;69;Male;2026/03/27 06:42;Hypertension;Cardiology
+503;9;Male;2026/04/28 23:03;Back Pain;Orthopedics
+504;45;Male;2026/04/02 14:00;Malaria;Infectious Disease
+505;23;Female;2026/04/29 02:13;Malaria;Infectious Disease
+506;26;Female;2026/04/12 17:56;Asthma;Pulmonology
+507;24;Male;2026/03/06 05:37;Asthma;Pulmonology
+508;19;Male;2026/03/26 15:28;Flu;General
+509;35;Male;2026/03/10 16:09;Back Pain;Orthopedics
+510;20;Female;2026/04/02 20:49;Hypertension;Cardiology
+511;39;Female;2026/03/12 02:44;Infection;General
+512;34;Male;2026/04/21 19:18;Back Pain;Orthopedics
+513;30;Male;2026/04/09 03:04;Infection;General
+514;18;Male;2026/03/06 03:11;Asthma;Pulmonology
+515;24;Female;2026/05/04 23:41;Flu;General
+516;48;Female;2026/03/28 20:57;Diabetes;Endocrinology
+517;44;Male;2026/04/26 23:24;Asthma;Pulmonology
+518;17;Male;2026/04/19 22:45;Malaria;Infectious Disease
+519;36;Male;2026/04/06 22:31;Allergy;Immunology
+520;48;Female;2026/03/10 03:45;Diabetes;Endocrinology
+521;4;Male;2026/04/16 16:41;Diabetes;Endocrinology
+522;44;Female;2026/05/02 06:15;Hypertension;Cardiology
+523;23;Female;2026/04/07 16:20;Diabetes;Endocrinology
+524;45;Male;2026/03/14 05:50;Headache;Neurology
+525;21;Male;2026/04/19 02:38;Infection;General
+526;2;Male;2026/03/27 08:53;Infection;General
+527;5;Female;2026/03/10 09:22;Back Pain;Orthopedics
+528;35;Female;2026/03/22 11:22;Allergy;Immunology
+529;39;Female;2026/03/21 02:29;Back Pain;Orthopedics
+530;18;Female;2026/05/01 21:08;Flu;General
+531;46;Male;2026/04/03 14:36;Infection;General
+532;5;Female;2026/03/28 12:31;Hypertension;Cardiology
+533;33;Female;2026/04/20 19:46;Flu;General
+534;13;Male;2026/04/22 22:44;Asthma;Pulmonology
+535;23;Female;2026/03/22 22:39;Diabetes;Endocrinology
+536;35;Female;2026/03/26 01:36;Flu;General
+537;19;Female;2026/03/11 11:17;Flu;General
+538;28;Female;2026/04/04 21:53;Flu;General
+539;53;Female;2026/04/07 16:42;Allergy;Immunology
+540;24;Female;2026/04/06 09:50;Flu;General
+541;50;Male;2026/03/19 09:46;Hypertension;Cardiology
+542;14;Male;2026/05/04 18:35;Malaria;Infectious Disease
+543;44;Female;2026/04/08 08:41;Diabetes;Endocrinology
+544;60;Male;2026/04/02 10:13;Allergy;Immunology
+545;0;Male;2026/04/13 22:46;Flu;General
+546;20;Male;2026/04/28 18:53;Headache;Neurology
+547;45;Male;2026/03/20 23:07;Infection;General
+548;31;Female;2026/04/17 08:46;Chest Pain;Emergency
+549;41;Female;2026/04/07 00:18;Asthma;Pulmonology
+550;24;Male;2026/03/08 09:39;Back Pain;Orthopedics
+551;36;Male;2026/04/21 09:00;Flu;General
+552;32;Male;2026/04/03 17:33;Malaria;Infectious Disease
+553;56;Female;2026/04/25 12:53;Malaria;Infectious Disease
+554;39;Female;2026/03/06 01:28;Allergy;Immunology
+555;41;Male;2026/04/22 14:12;Hypertension;Cardiology
+556;27;Female;2026/04/22 16:52;Hypertension;Cardiology
+557;26;Female;2026/04/03 06:23;Diabetes;Endocrinology
+558;27;Female;2026/03/31 16:06;Flu;General
+559;42;Female;2026/03/18 04:25;Hypertension;Cardiology
+560;27;Male;2026/04/23 02:06;Chest Pain;Emergency
+561;40;Female;2026/05/02 16:38;Malaria;Infectious Disease
+562;72;Male;2026/04/27 00:48;Asthma;Pulmonology
+563;50;Female;2026/03/22 10:24;Infection;General
+564;29;Female;2026/05/03 02:14;Diabetes;Endocrinology
+565;56;Female;2026/04/03 20:42;Flu;General
+566;27;Female;2026/04/06 15:24;Hypertension;Cardiology
+567;0;Male;2026/04/28 08:55;Diabetes;Endocrinology
+568;16;Female;2026/04/30 00:28;Asthma;Pulmonology
+569;1;Female;2026/05/01 21:15;Malaria;Infectious Disease
+570;28;Female;2026/04/15 18:43;Flu;General
+571;35;Male;2026/04/25 21:40;Headache;Neurology
+572;65;Male;2026/03/12 13:28;Chest Pain;Emergency
+573;40;Male;2026/03/24 18:01;Back Pain;Orthopedics
+574;31;Female;2026/04/15 12:14;Back Pain;Orthopedics
+575;49;Female;2026/03/08 10:52;Back Pain;Orthopedics
+576;0;Male;2026/04/20 07:17;Diabetes;Endocrinology
+577;39;Female;2026/04/25 15:01;Infection;General
+578;48;Female;2026/04/06 07:21;Flu;General
+579;8;Female;2026/03/11 11:46;Infection;General
+580;55;Female;2026/05/01 07:35;Asthma;Pulmonology
+581;41;Female;2026/03/20 19:56;Flu;General
+582;27;Female;2026/04/23 12:17;Back Pain;Orthopedics
+583;46;Male;2026/03/07 12:44;Allergy;Immunology
+584;75;Female;2026/04/28 14:19;Hypertension;Cardiology
+585;38;Female;2026/04/03 09:28;Back Pain;Orthopedics
+586;39;Female;2026/03/08 18:02;Flu;General
+587;26;Female;2026/04/28 13:39;Asthma;Pulmonology
+588;19;Female;2026/05/03 22:03;Headache;Neurology
+589;49;Male;2026/05/03 19:10;Headache;Neurology
+590;19;Male;2026/05/02 10:31;Chest Pain;Emergency
+591;36;Male;2026/04/01 10:01;Allergy;Immunology
+592;26;Male;2026/04/23 08:27;Back Pain;Orthopedics
+593;43;Female;2026/04/05 01:55;Diabetes;Endocrinology
+594;41;Female;2026/03/20 15:24;Allergy;Immunology
+595;53;Male;2026/04/10 07:08;Flu;General
+596;25;Male;2026/05/02 04:47;Allergy;Immunology
+597;30;Female;2026/04/19 06:31;Diabetes;Endocrinology
+598;17;Male;2026/05/02 19:16;Flu;General
+599;27;Female;2026/04/09 04:18;Infection;General
+600;41;Female;2026/04/18 06:27;Hypertension;Cardiology
+601;48;Female;2026/03/14 05:28;Hypertension;Cardiology
+602;18;Male;2026/05/02 16:15;Diabetes;Endocrinology
+603;50;Male;2026/03/28 02:20;Flu;General
+604;59;Female;2026/03/31 03:41;Hypertension;Cardiology
+605;42;Female;2026/04/11 20:21;Flu;General
+606;68;Male;2026/04/16 11:41;Malaria;Infectious Disease
+607;21;Female;2026/03/18 10:53;Flu;General
+608;12;Male;2026/03/21 07:39;Infection;General
+609;2;Female;2026/05/03 07:44;Hypertension;Cardiology
+610;61;Male;2026/05/03 01:29;Chest Pain;Emergency
+611;46;Female;2026/04/04 11:09;Allergy;Immunology
+612;33;Male;2026/04/18 10:14;Diabetes;Endocrinology
+613;40;Male;2026/03/21 16:25;Back Pain;Orthopedics
+614;14;Male;2026/03/07 17:11;Back Pain;Orthopedics
+615;79;Male;2026/04/25 22:17;Chest Pain;Emergency
+616;37;Female;2026/04/06 16:37;Asthma;Pulmonology
+617;36;Female;2026/05/01 14:02;Flu;General
+618;48;Male;2026/04/12 02:29;Asthma;Pulmonology
+619;43;Male;2026/03/06 12:31;Asthma;Pulmonology
+620;39;Female;2026/04/02 20:57;Asthma;Pulmonology
+621;20;Female;2026/04/20 12:26;Diabetes;Endocrinology
+622;43;Female;2026/04/10 06:21;Allergy;Immunology
+623;68;Male;2026/03/15 06:52;Chest Pain;Emergency
+624;59;Male;2026/03/20 14:03;Hypertension;Cardiology
+625;63;Female;2026/04/06 22:54;Flu;General
+626;25;Male;2026/03/11 23:19;Hypertension;Cardiology
+627;17;Female;2026/05/02 04:19;Back Pain;Orthopedics
+628;32;Male;2026/03/17 00:27;Infection;General
+629;36;Female;2026/03/13 00:36;Asthma;Pulmonology
+630;54;Male;2026/03/27 05:20;Malaria;Infectious Disease
+631;4;Female;2026/04/06 02:14;Asthma;Pulmonology
+632;62;Female;2026/03/10 23:45;Diabetes;Endocrinology
+633;32;Female;2026/04/24 15:05;Headache;Neurology
+634;27;Male;2026/03/30 23:45;Back Pain;Orthopedics
+635;16;Female;2026/05/03 23:39;Chest Pain;Emergency
+636;5;Female;2026/04/03 06:39;Chest Pain;Emergency
+637;49;Female;2026/03/18 05:17;Chest Pain;Emergency
+638;36;Female;2026/03/07 07:10;Malaria;Infectious Disease
+639;11;Female;2026/04/07 21:37;Headache;Neurology
+640;11;Female;2026/04/22 19:11;Infection;General
+641;28;Male;2026/04/17 09:02;Chest Pain;Emergency
+642;65;Female;2026/04/19 02:30;Flu;General
+643;30;Female;2026/03/20 15:12;Diabetes;Endocrinology
+644;7;Male;2026/04/23 02:51;Flu;General
+645;30;Male;2026/03/16 20:50;Asthma;Pulmonology
+646;30;Male;2026/04/28 10:29;Diabetes;Endocrinology
+647;0;Female;2026/05/04 15:52;Diabetes;Endocrinology
+648;34;Female;2026/04/09 21:37;Flu;General
+649;30;Female;2026/04/05 13:23;Diabetes;Endocrinology
+650;47;Female;2026/04/24 16:31;Allergy;Immunology
+651;68;Male;2026/04/10 22:14;Hypertension;Cardiology
+652;55;Male;2026/04/17 02:02;Infection;General
+653;30;Male;2026/03/21 04:20;Asthma;Pulmonology
+654;15;Male;2026/03/15 18:24;Allergy;Immunology
+655;81;Male;2026/03/09 18:42;Flu;General
+656;36;Male;2026/03/07 09:42;Chest Pain;Emergency
+657;35;Female;2026/03/30 19:47;Asthma;Pulmonology
+658;34;Female;2026/03/24 22:23;Chest Pain;Emergency
+659;38;Female;2026/03/16 13:33;Allergy;Immunology
+660;32;Female;2026/04/29 04:58;Hypertension;Cardiology
+661;24;Female;2026/03/10 18:20;Flu;General
+662;25;Male;2026/03/17 17:03;Hypertension;Cardiology
+663;34;Female;2026/04/28 16:41;Headache;Neurology
+664;25;Female;2026/03/25 05:24;Hypertension;Cardiology
+665;22;Male;2026/03/19 10:31;Hypertension;Cardiology
+666;36;Male;2026/03/16 17:26;Headache;Neurology
+667;30;Female;2026/04/29 21:17;Flu;General
+668;62;Male;2026/04/30 22:10;Flu;General
+669;0;Female;2026/03/26 11:04;Malaria;Infectious Disease
+670;54;Female;2026/03/28 08:58;Flu;General
+671;57;Male;2026/03/30 08:53;Malaria;Infectious Disease
+672;0;Male;2026/03/15 21:18;Headache;Neurology
+673;28;Male;2026/03/06 06:03;Headache;Neurology
+674;28;Male;2026/03/06 14:39;Allergy;Immunology
+675;9;Male;2026/03/17 21:21;Headache;Neurology
+676;20;Female;2026/04/24 14:16;Headache;Neurology
+677;15;Male;2026/04/03 13:13;Malaria;Infectious Disease
+678;66;Female;2026/04/24 19:49;Back Pain;Orthopedics
+679;51;Male;2026/04/22 00:54;Allergy;Immunology
+680;57;Female;2026/05/03 10:14;Allergy;Immunology
+681;47;Male;2026/03/17 07:53;Infection;General
+682;14;Male;2026/03/25 05:02;Flu;General
+683;25;Female;2026/04/02 23:25;Diabetes;Endocrinology
+684;43;Female;2026/04/04 12:12;Flu;General
+685;13;Male;2026/03/07 04:48;Chest Pain;Emergency
+686;47;Female;2026/04/12 01:35;Infection;General
+687;30;Male;2026/04/28 10:07;Infection;General
+688;28;Female;2026/04/18 07:42;Diabetes;Endocrinology
+689;47;Male;2026/03/27 19:07;Back Pain;Orthopedics
+690;42;Male;2026/04/03 07:25;Hypertension;Cardiology
+691;28;Female;2026/04/04 16:19;Flu;General
+692;55;Female;2026/04/26 22:15;Malaria;Infectious Disease
+693;15;Male;2026/04/20 10:06;Asthma;Pulmonology
+694;46;Female;2026/03/21 12:58;Headache;Neurology
+695;45;Female;2026/04/21 23:47;Allergy;Immunology
+696;29;Male;2026/04/01 20:22;Flu;General
+697;40;Female;2026/03/29 08:34;Headache;Neurology
+698;12;Male;2026/04/25 19:36;Headache;Neurology
+699;51;Female;2026/04/16 16:46;Diabetes;Endocrinology
+700;31;Female;2026/04/05 22:56;Back Pain;Orthopedics
+701;25;Female;2026/03/13 14:30;Infection;General
+702;53;Male;2026/04/27 13:19;Infection;General
+703;22;Male;2026/05/04 06:52;Allergy;Immunology
+704;9;Male;2026/04/29 11:48;Infection;General
+705;6;Male;2026/03/22 09:29;Hypertension;Cardiology
+706;45;Male;2026/04/03 18:45;Infection;General
+707;11;Female;2026/03/16 01:49;Diabetes;Endocrinology
+708;66;Male;2026/03/12 11:57;Hypertension;Cardiology
+709;0;Male;2026/04/08 19:49;Flu;General
+710;65;Female;2026/04/12 23:09;Infection;General
+711;38;Male;2026/04/06 19:14;Infection;General
+712;33;Female;2026/04/11 19:02;Hypertension;Cardiology
+713;25;Male;2026/04/11 07:07;Infection;General
+714;42;Female;2026/04/14 11:55;Allergy;Immunology
+715;34;Male;2026/03/28 07:10;Flu;General
+716;54;Male;2026/04/20 07:28;Hypertension;Cardiology
+717;37;Female;2026/04/04 23:59;Infection;General
+718;37;Male;2026/03/15 06:27;Diabetes;Endocrinology
+719;28;Female;2026/04/23 03:12;Asthma;Pulmonology
+720;33;Male;2026/04/06 03:36;Flu;General
+721;40;Male;2026/03/31 21:03;Headache;Neurology
+722;4;Female;2026/04/05 17:37;Infection;General
+723;10;Male;2026/03/29 23:22;Infection;General
+724;48;Female;2026/03/27 01:30;Back Pain;Orthopedics
+725;38;Female;2026/04/29 10:27;Allergy;Immunology
+726;31;Female;2026/04/20 04:37;Back Pain;Orthopedics
+727;35;Female;2026/03/15 07:45;Infection;General
+728;41;Male;2026/03/29 02:43;Flu;General
+729;25;Male;2026/04/22 22:16;Headache;Neurology
+730;20;Male;2026/03/06 22:30;Flu;General
+731;38;Female;2026/04/05 09:56;Back Pain;Orthopedics
+732;17;Female;2026/04/29 09:52;Diabetes;Endocrinology
+733;42;Male;2026/04/30 01:08;Headache;Neurology
+734;4;Female;2026/03/27 12:24;Diabetes;Endocrinology
+735;53;Male;2026/04/22 17:50;Back Pain;Orthopedics
+736;43;Female;2026/03/17 07:16;Allergy;Immunology
+737;39;Male;2026/03/20 09:14;Malaria;Infectious Disease
+738;52;Female;2026/03/20 22:38;Allergy;Immunology
+739;64;Female;2026/03/18 16:31;Hypertension;Cardiology
+740;53;Male;2026/03/14 07:19;Headache;Neurology
+741;1;Male;2026/03/31 20:17;Allergy;Immunology
+742;11;Male;2026/03/18 15:08;Diabetes;Endocrinology
+743;23;Male;2026/03/17 11:37;Chest Pain;Emergency
+744;35;Male;2026/03/24 06:56;Flu;General
+745;44;Female;2026/04/09 15:17;Flu;General
+746;21;Female;2026/03/21 22:38;Allergy;Immunology
+747;38;Female;2026/03/09 07:12;Flu;General
+748;21;Male;2026/04/19 16:48;Chest Pain;Emergency
+749;23;Female;2026/04/11 05:18;Chest Pain;Emergency
+750;9;Female;2026/03/18 13:30;Flu;General
+751;18;Male;2026/04/28 03:59;Headache;Neurology
+752;10;Female;2026/04/13 07:24;Hypertension;Cardiology
+753;17;Female;2026/03/18 05:37;Malaria;Infectious Disease
+754;53;Male;2026/04/30 20:29;Flu;General
+755;17;Male;2026/03/08 02:44;Hypertension;Cardiology
+756;82;Female;2026/04/28 01:15;Diabetes;Endocrinology
+757;43;Male;2026/03/27 05:07;Malaria;Infectious Disease
+758;38;Female;2026/04/29 07:56;Chest Pain;Emergency
+759;19;Female;2026/03/11 13:31;Back Pain;Orthopedics
+760;47;Female;2026/04/09 09:02;Infection;General
+761;24;Male;2026/05/03 11:48;Headache;Neurology
+762;37;Male;2026/05/03 04:51;Back Pain;Orthopedics
+763;81;Female;2026/03/30 08:30;Diabetes;Endocrinology
+764;33;Female;2026/03/26 19:38;Infection;General
+765;55;Male;2026/03/27 03:12;Chest Pain;Emergency
+766;22;Female;2026/04/19 09:49;Diabetes;Endocrinology
+767;34;Female;2026/04/23 19:51;Infection;General
+768;66;Male;2026/03/18 16:53;Back Pain;Orthopedics
+769;23;Male;2026/04/10 00:00;Allergy;Immunology
+770;67;Female;2026/03/20 12:16;Infection;General
+771;47;Male;2026/03/29 07:49;Diabetes;Endocrinology
+772;24;Male;2026/04/01 12:22;Diabetes;Endocrinology
+773;46;Male;2026/04/20 07:07;Flu;General
+774;52;Male;2026/05/03 14:58;Infection;General
+775;46;Female;2026/03/18 06:36;Flu;General
+776;6;Female;2026/04/23 15:54;Allergy;Immunology
+777;21;Male;2026/03/07 21:17;Flu;General
+778;30;Female;2026/03/22 06:12;Hypertension;Cardiology
+779;33;Female;2026/04/06 17:28;Headache;Neurology
+780;46;Female;2026/04/20 17:12;Infection;General
+781;38;Male;2026/04/17 20:29;Flu;General
+782;10;Male;2026/03/26 15:54;Malaria;Infectious Disease
+783;41;Female;2026/03/22 07:18;Headache;Neurology
+784;45;Female;2026/04/26 14:08;Hypertension;Cardiology
+785;45;Male;2026/04/26 09:43;Flu;General
+786;54;Male;2026/04/05 20:22;Back Pain;Orthopedics
+787;50;Male;2026/04/26 00:56;Headache;Neurology
+788;43;Female;2026/04/26 08:53;Flu;General
+789;33;Female;2026/04/21 00:43;Back Pain;Orthopedics
+790;5;Female;2026/04/09 10:33;Chest Pain;Emergency
+791;42;Male;2026/03/21 08:31;Asthma;Pulmonology
+792;38;Female;2026/03/20 11:32;Headache;Neurology
+793;39;Female;2026/04/19 13:56;Allergy;Immunology
+794;12;Male;2026/05/01 07:07;Chest Pain;Emergency
+795;15;Female;2026/04/01 11:00;Infection;General
+796;53;Female;2026/04/17 07:41;Malaria;Infectious Disease
+797;34;Male;2026/04/25 10:38;Asthma;Pulmonology
+798;47;Female;2026/04/17 16:32;Infection;General
+799;35;Male;2026/04/06 20:20;Hypertension;Cardiology
+800;35;Female;2026/04/14 22:55;Malaria;Infectious Disease
+801;51;Female;2026/03/11 21:49;Back Pain;Orthopedics
+802;25;Female;2026/04/12 04:44;Infection;General
+803;36;Female;2026/04/25 21:07;Malaria;Infectious Disease
+804;26;Male;2026/04/15 16:34;Infection;General
+805;27;Female;2026/04/25 10:23;Flu;General
+806;29;Female;2026/04/23 20:50;Malaria;Infectious Disease
+807;38;Male;2026/03/07 07:18;Back Pain;Orthopedics
+808;26;Female;2026/04/13 16:05;Hypertension;Cardiology
+809;57;Female;2026/03/24 23:37;Hypertension;Cardiology
+810;18;Male;2026/04/02 01:37;Chest Pain;Emergency
+811;31;Female;2026/04/29 04:50;Hypertension;Cardiology
+812;27;Female;2026/04/26 03:21;Hypertension;Cardiology
+813;61;Male;2026/03/31 16:42;Chest Pain;Emergency
+814;38;Female;2026/04/10 12:51;Infection;General
+815;53;Male;2026/05/02 16:40;Infection;General
+816;8;Male;2026/04/10 22:59;Allergy;Immunology
+817;39;Male;2026/04/20 18:57;Flu;General
+818;51;Female;2026/05/04 02:45;Infection;General
+819;36;Female;2026/04/14 23:58;Headache;Neurology
+820;54;Male;2026/04/02 00:41;Back Pain;Orthopedics
+821;25;Male;2026/03/23 15:39;Headache;Neurology
+822;60;Female;2026/04/07 11:07;Asthma;Pulmonology
+823;76;Male;2026/03/29 15:49;Headache;Neurology
+824;28;Female;2026/03/09 05:43;Headache;Neurology
+825;26;Female;2026/04/01 08:46;Infection;General
+826;61;Female;2026/03/21 23:11;Asthma;Pulmonology
+827;63;Female;2026/04/05 23:54;Asthma;Pulmonology
+828;25;Male;2026/03/19 12:24;Headache;Neurology
+829;27;Female;2026/04/08 02:57;Headache;Neurology
+830;29;Female;2026/03/29 21:41;Infection;General
+831;10;Female;2026/03/14 19:39;Back Pain;Orthopedics
+832;18;Male;2026/03/15 18:02;Infection;General
+833;16;Female;2026/03/29 04:02;Chest Pain;Emergency
+834;21;Male;2026/05/02 15:48;Back Pain;Orthopedics
+835;34;Male;2026/03/20 02:11;Headache;Neurology
+836;39;Male;2026/04/15 20:43;Infection;General
+837;62;Female;2026/03/31 14:33;Chest Pain;Emergency
+838;17;Female;2026/03/28 17:19;Asthma;Pulmonology
+839;52;Female;2026/03/17 22:03;Back Pain;Orthopedics
+840;31;Female;2026/03/28 15:54;Infection;General
+841;34;Male;2026/04/22 00:53;Headache;Neurology
+842;47;Female;2026/03/30 01:29;Hypertension;Cardiology
+843;14;Male;2026/03/08 20:24;Malaria;Infectious Disease
+844;41;Female;2026/03/25 16:51;Chest Pain;Emergency
+845;37;Female;2026/03/27 20:32;Infection;General
+846;43;Female;2026/04/26 05:14;Headache;Neurology
+847;40;Female;2026/05/02 13:51;Chest Pain;Emergency
+848;79;Male;2026/03/20 13:24;Asthma;Pulmonology
+849;23;Male;2026/03/26 23:56;Headache;Neurology
+850;25;Female;2026/05/02 04:05;Infection;General
+851;23;Male;2026/04/23 10:47;Infection;General
+852;25;Male;2026/04/18 14:22;Hypertension;Cardiology
+853;23;Female;2026/03/09 17:20;Headache;Neurology
+854;56;Female;2026/04/02 02:21;Headache;Neurology
+855;60;Male;2026/04/14 22:02;Malaria;Infectious Disease
+856;24;Male;2026/04/14 17:09;Headache;Neurology
+857;20;Female;2026/03/30 19:48;Malaria;Infectious Disease
+858;43;Female;2026/03/13 22:10;Hypertension;Cardiology
+859;25;Male;2026/03/10 12:52;Malaria;Infectious Disease
+860;46;Male;2026/04/29 04:55;Flu;General
+861;38;Male;2026/05/03 12:37;Asthma;Pulmonology
+862;7;Male;2026/04/03 04:08;Allergy;Immunology
+863;62;Male;2026/05/03 15:01;Infection;General
+864;67;Female;2026/03/06 07:59;Diabetes;Endocrinology
+865;23;Female;2026/04/25 10:27;Flu;General
+866;28;Female;2026/04/18 11:38;Hypertension;Cardiology
+867;40;Male;2026/03/31 12:58;Headache;Neurology
+868;41;Female;2026/03/13 21:27;Hypertension;Cardiology
+869;46;Male;2026/05/02 08:38;Headache;Neurology
+870;71;Female;2026/04/05 20:55;Hypertension;Cardiology
+871;31;Female;2026/04/21 01:54;Back Pain;Orthopedics
+872;20;Male;2026/04/05 19:24;Malaria;Infectious Disease
+873;10;Female;2026/03/17 00:54;Hypertension;Cardiology
+874;21;Male;2026/03/27 07:36;Back Pain;Orthopedics
+875;34;Female;2026/04/21 00:00;Diabetes;Endocrinology
+876;67;Male;2026/05/01 09:53;Flu;General
+877;25;Male;2026/04/16 20:14;Asthma;Pulmonology
+878;39;Female;2026/03/22 21:37;Asthma;Pulmonology
+879;34;Male;2026/04/09 12:15;Infection;General
+880;56;Female;2026/03/13 14:16;Hypertension;Cardiology
+881;80;Male;2026/03/22 21:25;Malaria;Infectious Disease
+882;25;Female;2026/03/18 16:37;Diabetes;Endocrinology
+883;26;Female;2026/03/22 15:13;Flu;General
+884;53;Female;2026/04/19 05:34;Allergy;Immunology
+885;47;Male;2026/04/20 13:46;Infection;General
+886;68;Male;2026/03/13 14:53;Diabetes;Endocrinology
+887;45;Male;2026/04/01 12:48;Asthma;Pulmonology
+888;28;Male;2026/04/05 20:55;Hypertension;Cardiology
+889;45;Female;2026/04/09 05:04;Allergy;Immunology
+890;54;Female;2026/03/27 16:22;Flu;General
+891;49;Female;2026/03/30 01:25;Flu;General
+892;44;Female;2026/04/21 04:25;Headache;Neurology
+893;54;Female;2026/03/25 05:05;Asthma;Pulmonology
+894;56;Female;2026/05/03 17:17;Asthma;Pulmonology
+895;59;Male;2026/03/09 16:56;Flu;General
+896;46;Female;2026/03/19 13:12;Diabetes;Endocrinology
+897;31;Female;2026/03/12 11:54;Headache;Neurology
+898;37;Female;2026/03/20 18:42;Hypertension;Cardiology
+899;56;Male;2026/04/21 11:34;Allergy;Immunology
+900;20;Male;2026/03/22 02:18;Flu;General
+901;41;Male;2026/03/25 03:34;Headache;Neurology
+902;27;Female;2026/04/06 15:43;Infection;General
+903;35;Female;2026/04/14 23:16;Hypertension;Cardiology
+904;58;Male;2026/03/12 10:49;Asthma;Pulmonology
+905;38;Female;2026/03/06 02:31;Back Pain;Orthopedics
+906;35;Male;2026/04/10 12:05;Hypertension;Cardiology
+907;10;Male;2026/05/02 13:36;Allergy;Immunology
+908;48;Male;2026/04/22 14:46;Headache;Neurology
+909;46;Female;2026/03/09 07:58;Diabetes;Endocrinology
+910;73;Female;2026/03/21 15:03;Malaria;Infectious Disease
+911;29;Male;2026/04/19 12:01;Diabetes;Endocrinology
+912;38;Female;2026/04/05 02:53;Infection;General
+913;39;Male;2026/03/13 23:14;Back Pain;Orthopedics
+914;63;Female;2026/04/17 08:38;Back Pain;Orthopedics
+915;33;Female;2026/04/19 01:07;Chest Pain;Emergency
+916;40;Female;2026/03/12 23:43;Back Pain;Orthopedics
+917;45;Male;2026/04/25 06:41;Asthma;Pulmonology
+918;38;Female;2026/05/01 15:34;Diabetes;Endocrinology
+919;26;Female;2026/04/04 09:37;Headache;Neurology
+920;38;Male;2026/03/23 17:04;Flu;General
+921;54;Female;2026/04/27 06:59;Infection;General
+922;16;Male;2026/04/08 10:44;Malaria;Infectious Disease
+923;37;Female;2026/03/28 04:29;Flu;General
+924;22;Male;2026/03/11 23:57;Flu;General
+925;56;Female;2026/04/20 11:03;Malaria;Infectious Disease
+926;7;Female;2026/04/03 22:05;Asthma;Pulmonology
+927;24;Male;2026/04/06 09:17;Headache;Neurology
+928;41;Male;2026/03/20 07:57;Asthma;Pulmonology
+929;63;Male;2026/04/06 08:36;Headache;Neurology
+930;33;Male;2026/03/15 19:05;Infection;General
+931;25;Male;2026/04/22 23:58;Hypertension;Cardiology
+932;68;Female;2026/03/08 09:10;Flu;General
+933;8;Male;2026/04/17 16:31;Asthma;Pulmonology
+934;0;Male;2026/03/09 03:16;Headache;Neurology
+935;42;Female;2026/04/15 18:04;Flu;General
+936;25;Male;2026/04/06 21:55;Malaria;Infectious Disease
+937;16;Female;2026/03/11 02:21;Flu;General
+938;47;Female;2026/03/06 19:21;Headache;Neurology
+939;39;Female;2026/04/22 22:10;Malaria;Infectious Disease
+940;24;Female;2026/03/18 09:02;Asthma;Pulmonology
+941;11;Female;2026/03/14 11:22;Back Pain;Orthopedics
+942;50;Male;2026/03/19 00:17;Diabetes;Endocrinology
+943;46;Male;2026/04/23 08:08;Chest Pain;Emergency
+944;33;Male;2026/03/28 09:18;Headache;Neurology
+945;68;Female;2026/04/21 04:46;Asthma;Pulmonology
+946;15;Male;2026/04/26 22:29;Infection;General
+947;7;Female;2026/03/30 01:44;Infection;General
+948;22;Female;2026/04/30 15:46;Headache;Neurology
+949;34;Female;2026/03/30 09:13;Malaria;Infectious Disease
+950;39;Female;2026/04/16 13:57;Flu;General
+951;30;Male;2026/04/04 22:40;Flu;General
+952;41;Female;2026/03/30 13:34;Diabetes;Endocrinology
+953;12;Female;2026/04/26 15:33;Diabetes;Endocrinology
+954;60;Male;2026/03/15 02:10;Malaria;Infectious Disease
+955;33;Male;2026/03/16 20:20;Flu;General
+956;55;Female;2026/03/27 12:06;Infection;General
+957;41;Female;2026/04/29 16:01;Allergy;Immunology
+958;43;Female;2026/03/17 09:17;Chest Pain;Emergency
+959;45;Female;2026/04/28 10:15;Headache;Neurology
+960;43;Female;2026/04/23 18:17;Infection;General
+961;46;Female;2026/04/09 20:58;Allergy;Immunology
+962;58;Male;2026/03/31 15:05;Malaria;Infectious Disease
+963;38;Male;2026/05/01 11:42;Diabetes;Endocrinology
+964;47;Male;2026/04/21 14:47;Chest Pain;Emergency
+965;33;Female;2026/04/16 11:59;Headache;Neurology
+966;60;Female;2026/03/18 03:38;Headache;Neurology
+967;22;Female;2026/04/28 01:25;Hypertension;Cardiology
+968;67;Male;2026/05/03 14:07;Flu;General
+969;34;Female;2026/03/12 14:54;Back Pain;Orthopedics
+970;9;Female;2026/04/20 07:59;Asthma;Pulmonology
+971;37;Female;2026/03/17 12:42;Diabetes;Endocrinology
+972;22;Female;2026/03/22 16:55;Hypertension;Cardiology
+973;50;Male;2026/04/10 20:07;Headache;Neurology
+974;23;Female;2026/03/10 15:35;Asthma;Pulmonology
+975;26;Male;2026/04/02 21:28;Hypertension;Cardiology
+976;0;Male;2026/04/21 11:36;Allergy;Immunology
+977;26;Female;2026/04/04 22:15;Flu;General
+978;0;Female;2026/03/19 09:06;Diabetes;Endocrinology
+979;6;Female;2026/04/19 19:59;Infection;General
+980;48;Female;2026/04/11 02:14;Diabetes;Endocrinology
+981;49;Female;2026/04/10 14:45;Back Pain;Orthopedics
+982;42;Female;2026/04/26 18:12;Infection;General
+983;17;Female;2026/04/16 20:36;Back Pain;Orthopedics
+984;34;Male;2026/04/01 22:51;Flu;General
+985;34;Male;2026/04/03 19:24;Flu;General
+986;14;Male;2026/03/11 03:01;Diabetes;Endocrinology
+987;62;Male;2026/03/27 15:17;Headache;Neurology
+988;50;Male;2026/03/10 21:35;Infection;General
+989;31;Male;2026/04/04 12:18;Back Pain;Orthopedics
+990;35;Male;2026/03/28 01:12;Infection;General
+991;38;Female;2026/04/17 21:28;Chest Pain;Emergency
+992;0;Male;2026/04/10 21:51;Infection;General
+993;30;Female;2026/04/26 14:35;Diabetes;Endocrinology
+994;22;Male;2026/03/14 06:50;Hypertension;Cardiology
+995;16;Female;2026/03/24 05:05;Infection;General
+996;29;Male;2026/04/26 14:14;Hypertension;Cardiology
+997;67;Male;2026/05/01 19:08;Flu;General
+998;46;Female;2026/04/06 03:49;Headache;Neurology
+999;24;Male;2026/03/23 04:19;Back Pain;Orthopedics
+1000;45;Male;2026/03/28 10:36;Flu;General
